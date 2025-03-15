@@ -32,9 +32,9 @@ function Service() {
     return (
         <div>
             {/* Hero Section */}
-            <div className="relative h-[350px] bg-cover bg-center flex items-center justify-center text-center">
-                <div className="absolute inset-0 bg-opacity-50"></div>
-                <h1 className="relative text-4xl md:text-5xl font-bold">Our Services</h1>
+            <div className="relative bg-cover bg-center flex items-center justify-center text-center">
+                {/* <div className="absolute inset-0 bg-opacity-50"></div> */}
+                <h1 className="relative mt-10 text-4xl md:text-5xl font-bold">Our Services</h1>
             </div>
 
             {/* Services Grid */}
