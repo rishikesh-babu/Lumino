@@ -29,8 +29,8 @@ function Blog() {
       {/* Blog Posts Section */}
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogPosts.map((post, index) => (
-          <div key={index} className="rounded-lg shadow-md overflow-hidden">
-            <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
+          <div key={index} className="rounded-lg shadow-md overflow-hidden flex flex-col justify-between">
+            <img src={post.image} alt={post.title} className="h-fit object-cover" />
             <div className="p-4">
               <h3 className="text-xl font-semibold">{post.title}</h3>
               <p className="mt-2">{post.excerpt}</p>
