@@ -4,7 +4,7 @@ const blogPosts = [
   {
     title: "Digital Marketing Trends for 2025",
     excerpt: "Discover the latest strategies in SEO, social media, and AI-driven marketing to stay ahead in the digital landscape.",
-    image: "/images/digital-marketing.jpg",
+    image: "https://blog.omnichat.ai/wp-content/uploads/2024/12/2025-trend-en.png",
   },
   {
     title: "Behind-the-Scenes: How We Plan Major Events",
