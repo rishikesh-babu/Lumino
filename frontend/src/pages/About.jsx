@@ -13,7 +13,7 @@ function About() {
         <div className="mt-6">
           <h3 className="text-xl font-semibold text-gray-800">Who We Are</h3>
           <p className="text-gray-700 mt-2">
-            Since its inception, Code Storm has been dedicated to crafting impactful marketing strategies that drive business success.
+            Sinchhhhhhe its inception, Code Storm has been dedicahjjuuuted to crafting impactful marketing strategies that drive business success.
             Our team of experts blends creativity with data-driven insights to help brands grow and thrive in a competitive digital world.
           </p>
         </div>
