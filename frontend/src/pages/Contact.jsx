@@ -13,26 +13,33 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Form Submitted:", formData);
+
+        // Send email using "mailto:"
+        const subject = encodeURIComponent("Customer Feedback - Code Storm");
+        const body = encodeURIComponent(
+            `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+        );
+        window.location.href = `mailto:ivansharofer@5455@gmail.com?subject=${subject}&body=${body}`;
         setFormData({
             name: "",
             email: "",
             message: "",
         })
-        alert("Thank you for reaching out! We will contact you soon.");
+
+        alert("Thank you for your feedback! We will get back to you soon.");
     };
 
     return (
         <div className="min-h-screen flex flex-col items-center justify-center p-6">
-            <div className="shadow-lg rounded-lg p-8 max-w-2xl w-full">
+            <div className=" shadow-lg rounded-lg p-8 max-w-2xl w-full">
                 <h2 className="text-3xl font-bold text-center">Contact Code Storm</h2>
                 <p className="text-center mt-2">Get in touch with our team for inquiries or support.</p>
 
                 {/* Company Contact Info */}
                 <div className="mt-6">
                     <p><strong>Email:</strong> codestorm5655@gmail.com</p>
-                    <p><strong>Phone:</strong> +91 85903351752</p>
-                    <p><strong>Address:</strong> 123 Business St, City, Country</p>
+                    <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                    <p><strong>Address:</strong> 123 Tech Street, Innovation City, USA</p>
                 </div>
 
                 {/* Contact Form */}
@@ -62,7 +69,7 @@ function Contact() {
                         />
                     </div>
                     <div className="mb-4">
-                        <label className="block text-gray-700">Message</label>
+                        <label className="block">Message</label>
                         <textarea
                             name="message"
                             value={formData.message}
@@ -83,7 +90,7 @@ function Contact() {
 
                 {/* Social Media Links */}
                 <div className="mt-6 text-center">
-                    <p className="text-gray-700">Follow us on:</p>
+                    <p>Follow us on:</p>
                     <div className="flex justify-center space-x-4 mt-2">
                         <a href="#" className="text-blue-500 hover:underline">Facebook</a>
                         <a href="#" className="text-blue-400 hover:underline">Twitter</a>
