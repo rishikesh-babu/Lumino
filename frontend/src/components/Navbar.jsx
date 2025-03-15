@@ -1,31 +1,36 @@
 import React from 'react'
+import DarkMode from './DarkMode'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
         <div>
             <nav className="flex justify-between items-center px-6 py-4 bg-gray-900 text-white shadow-md">
-                {/* Log o Section */}
+                {/* Logo Section */}
                 <div className="text-4xl font-bold tracking-wide text-blue-400">
                     ABC
                 </div>
 
                 {/* Navigation Links */}
                 <div className="flex space-x-6 text-lg font-medium">
-                    <a href="#" className="hover:text-blue-400 transition duration-300">
+                    <Link to={'/about'} className="hover:text-blue-400 transition duration-300">
                         About
-                    </a>
-                    <a href="#" className="hover:text-blue-400 transition duration-300">
+                    </Link>
+                    <Link to={'/blog'} className="hover:text-blue-400 transition duration-300">
                         Blog
-                    </a>
-                    <a href="#" className="hover:text-blue-400 transition duration-300">
+                    </Link>
+                    <Link to={'/Contact'} className="hover:text-blue-400 transition duration-300">
                         Contact
-                    </a>
-                    <a href="#" className="hover:text-blue-400 transition duration-300">
+                    </Link>
+                    <Link to={'/Join'} className="hover:text-blue-400 transition duration-300">
                         Join
-                    </a>
-                    <a href="#" className="hover:text-blue-400 transition duration-300">
+                    </Link>
+                    <Link to={'/Portfolio'} className="hover:text-blue-400 transition duration-300">
                         Portfolio
-                    </a>
+                    </Link>
+                    <div>
+                        <DarkMode />
+                    </div>
                 </div>
             </nav>
         </div>
