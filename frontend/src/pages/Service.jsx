@@ -1,29 +1,29 @@
 import React from 'react';
-import { VideoCameraIcon, CameraIcon, ChartBarIcon, CalendarIcon } from "@heroicons/react/solid";
+import { Video, Camera, BarChart, Calendar } from "lucide-react";
 
 const services = [
   {
     name: "Live Streaming",
     description: "We offer professional live streaming services for virtual and hybrid events, ensuring a seamless and engaging experience.",
-    icon: <VideoCameraIcon className="h-16 w-16 text-blue-500" />,
+    icon: <Video size={60} color="#3b82f6" />, // Blue color
     image: "/images/live-streaming.jpg",
   },
   {
     name: "Media Production",
     description: "Our expert team specializes in videography, photography, and high-quality video editing to bring your vision to life.",
-    icon: <CameraIcon className="h-16 w-16 text-green-500" />,
+    icon: <Camera size={60} color="#10b981" />, // Green color
     image: "/images/media-production.jpg",
   },
   {
     name: "Digital Marketing",
     description: "We help businesses grow with SEO, social media management, and targeted ad campaigns for maximum online reach.",
-    icon: <ChartBarIcon className="h-16 w-16 text-purple-500" />,
+    icon: <BarChart size={60} color="#8b5cf6" />, // Purple color
     image: "/images/digital-marketing.jpg",
   },
   {
     name: "Event Management",
     description: "From planning to execution, we ensure seamless events with professional coordination and logistics support.",
-    icon: <CalendarIcon className="h-16 w-16 text-red-500" />,
+    icon: <Calendar size={60} color="#ef4444" />, // Red color
     image: "/images/event-management.jpg",
   },
 ];
