@@ -30,22 +30,22 @@ function Contact() {
     };
 
     return (
-        <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-6">
-            <div className="bg-white shadow-lg rounded-lg p-8 max-w-2xl w-full">
-                <h2 className="text-3xl font-bold text-center text-gray-800">Contact Code Storm</h2>
-                <p className="text-center text-gray-600 mt-2">Get in touch with our team for inquiries or support.</p>
+        <div className="min-h-screen flex flex-col items-center justify-center p-6">
+            <div className=" shadow-lg rounded-lg p-8 max-w-2xl w-full">
+                <h2 className="text-3xl font-bold text-center">Contact Code Storm</h2>
+                <p className="text-center mt-2">Get in touch with our team for inquiries or support.</p>
 
                 {/* Company Contact Info */}
                 <div className="mt-6">
-                    <p className="text-gray-700"><strong>Email:</strong> codestorm5655@gmail.com</p>
-                    <p className="text-gray-700"><strong>Phone:</strong> +1 (555) 123-4567</p>
-                    <p className="text-gray-700"><strong>Address:</strong> 123 Tech Street, Innovation City, USA</p>
+                    <p><strong>Email:</strong> codestorm5655@gmail.com</p>
+                    <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                    <p><strong>Address:</strong> 123 Tech Street, Innovation City, USA</p>
                 </div>
 
                 {/* Contact Form */}
                 <form onSubmit={handleSubmit} className="mt-6">
                     <div className="mb-4">
-                        <label className="block text-gray-700">Name</label>
+                        <label className="block">Name</label>
                         <input
                             type="text"
                             name="name"
@@ -57,7 +57,7 @@ function Contact() {
                         />
                     </div>
                     <div className="mb-4">
-                        <label className="block text-gray-700">Email</label>
+                        <label className="block">Email</label>
                         <input
                             type="email"
                             name="email"
@@ -69,7 +69,7 @@ function Contact() {
                         />
                     </div>
                     <div className="mb-4">
-                        <label className="block text-gray-700">Message</label>
+                        <label className="block">Message</label>
                         <textarea
                             name="message"
                             value={formData.message}
@@ -90,7 +90,7 @@ function Contact() {
 
                 {/* Social Media Links */}
                 <div className="mt-6 text-center">
-                    <p className="text-gray-700">Follow us on:</p>
+                    <p>Follow us on:</p>
                     <div className="flex justify-center space-x-4 mt-2">
                         <a href="#" className="text-blue-500 hover:underline">Facebook</a>
                         <a href="#" className="text-blue-400 hover:underline">Twitter</a>
