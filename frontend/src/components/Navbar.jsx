@@ -9,7 +9,7 @@ function Navbar() {
 
     return (
         <nav className="shadow-md sticky top-0 w-full z-50">
-            <div className="container mx-auto flex justify-between items-center px-6 py-4">
+            <div className=" flex justify-between items-center px-6 py-4">
                 {/* Logo Section */}
                 <div onClick={() => navigate('/')} className="text-3xl font-bold tracking-wide text-blue-500 cursor-pointer">
                     ABC
