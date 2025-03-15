@@ -1,15 +1,21 @@
 import React from 'react'
 import DarkMode from './DarkMode'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Navbar() {
+    const navigate = useNavigate()
     return (
         <div>
-            
-            <nav className="flex justify-between items-center px-6 py-4 not-dark:bg-gray-900 shadow-md">
+            <nav className="flex justify-between items-center px-6 py-4 bg-gray-900 text-white shadow-md">
                 {/* Logo Section */}
-                <div className="text-4xl font-bold tracking-wide text-blue-400">
-                    ABC
+                <div>
+                    ytuytu
+                </div>
+                <div onClick={() => navigate('/')} className="text-4xl font-bold tracking-wide text-blue-400">
+                    ABCEFGhiji
+                </div>
+                <div>
+                    lasjflskdjf
                 </div>
 
                 {/* Navigation Links */}
