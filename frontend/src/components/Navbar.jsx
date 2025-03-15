@@ -12,7 +12,7 @@ function Navbar() {
             <div className=" flex justify-between items-center px-6 py-4">
                 {/* Logo Section */}
                 <div onClick={() => navigate('/')} className="text-3xl font-bold tracking-wide text-blue-500 cursor-pointer">
-                    ABC
+                    CODESTORM
                 </div>
                 
                 {/* Mobile Menu Button */}
