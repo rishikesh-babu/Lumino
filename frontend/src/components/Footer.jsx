@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Join() {
+function Footer() {
   return (
     <div>
-      this is join page
+      This is footer 
     </div>
   )
 }
 
-export default Join
+export default Footer
