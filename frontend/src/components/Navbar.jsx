@@ -32,6 +32,9 @@ function Navbar() {
                     <Link to={'/portfolio'} className="hover:text-blue-400 transition duration-300">
                         Portfolio
                     </Link>
+                    <Link to={'/esports'} className="hover:text-blue-400 transition duration-300">
+                        Esports
+                    </Link>
                     <div>
                         <DarkMode />
                     </div>
