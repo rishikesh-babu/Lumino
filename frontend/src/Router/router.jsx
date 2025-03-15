@@ -7,6 +7,7 @@ import Contact from "../pages/Contact";
 import Esports from "../pages/Esports";
 import Join from "../pages/Join";
 import Portfolio from "../pages/Portfolio";
+import Service from "../pages/Service";
 
 
 const router = createBrowserRouter([
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
             {
                 path: 'portfolio',
                 element: <Portfolio /> 
+            },
+            {
+                path: 'service',
+                element: <Service />
             },
         ]
     }
