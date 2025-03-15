@@ -17,18 +17,18 @@ function Navbar() {
                     <Link to={'/about'} className="hover:text-blue-400 transition duration-300">
                         About
                     </Link>
-                    <Link to={'blog'} className="hover:text-blue-400 transition duration-300">
+                    <Link to={'/blog'} className="hover:text-blue-400 transition duration-300">
                         Blog
                     </Link>
-                    <a href="#" className="hover:text-blue-400 transition duration-300">
+                    <Link to={'/Contact'} className="hover:text-blue-400 transition duration-300">
                         Contact
-                    </a>
-                    <a href="#" className="hover:text-blue-400 transition duration-300">
+                    </Link>
+                    <Link to={'/Join'} className="hover:text-blue-400 transition duration-300">
                         Join
-                    </a>
-                    <a href="#" className="hover:text-blue-400 transition duration-300">
+                    </Link>
+                    <Link to={'/Portfolio'} className="hover:text-blue-400 transition duration-300">
                         Portfolio
-                    </a>
+                    </Link>
                     <div>
                         <DarkMode />
                     </div>
