@@ -8,7 +8,6 @@ function About() {
         <p className="text-center text-gray-600 mt-2">
           A results-driven marketing team specializing in digital growth, branding, and customer engagement.
         </p>
-
         {/* Company Overview */} 
         <div className="mt-6">
           <h3 className="text-xl font-semibold text-gray-800">Who We Are</h3>
