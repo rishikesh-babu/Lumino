@@ -20,13 +20,16 @@ function Navbar() {
                     <Link to={'/blog'} className="hover:text-blue-400 transition duration-300">
                         Blog
                     </Link>
-                    <Link to={'/Contact'} className="hover:text-blue-400 transition duration-300">
+                    <Link to={'/contact'} className="hover:text-blue-400 transition duration-300">
                         Contact
                     </Link>
-                    <Link to={'/Join'} className="hover:text-blue-400 transition duration-300">
+                    <Link to={'/join'} className="hover:text-blue-400 transition duration-300">
                         Join
                     </Link>
-                    <Link to={'/Portfolio'} className="hover:text-blue-400 transition duration-300">
+                    <Link to={'/service'} className="hover:text-blue-400 transition duration-300">
+                        Service
+                    </Link>
+                    <Link to={'/portfolio'} className="hover:text-blue-400 transition duration-300">
                         Portfolio
                     </Link>
                     <div>
