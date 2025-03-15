@@ -4,19 +4,19 @@ const projects = [
   {
     title: "SEO Optimization Tool",
     description: "A powerful AI-driven SEO analytics tool to boost search rankings.",
-    image: "/images/seo-tool.jpg",
+    image: "https://elitedigitalagency.com/blog/wp-content/uploads/2022/06/iStock-997463524-scaled.jpg",
     link: "#",
   },
   {
     title: "Social Media Campaigns",
     description: "A strategic marketing suite for managing and automating social media campaigns.",
-    image: "/images/social-media.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUGOr_yWyT9PF9TQlpvNAkfycRIuIjYBZiFA&s",
     link: "#",
   },
   {
     title: "Brand Identity Design",
     description: "A comprehensive branding solution for businesses looking to stand out.",
-    image: "/images/brand-identity.jpg",
+    image: "https://5.imimg.com/data5/SELLER/Default/2021/1/MZ/HI/UI/10388100/branding-identity-design-services.jpg",
     link: "#",
   }
 ];
