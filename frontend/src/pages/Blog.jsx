@@ -4,17 +4,17 @@ const blogPosts = [
   {
     title: "Digital Marketing Trends for 2025",
     excerpt: "Discover the latest strategies in SEO, social media, and AI-driven marketing to stay ahead in the digital landscape.",
-    image: "/images/digital-marketing.jpg",
+    image: "https://blog.omnichat.ai/wp-content/uploads/2024/12/2025-trend-en.png",
   },
   {
     title: "Behind-the-Scenes: How We Plan Major Events",
     excerpt: "A look at the logistics, creativity, and execution behind organizing large-scale successful events.",
-    image: "/images/event-planning.jpg",
+    image: "https://i.ytimg.com/vi/QkDfwPhUJYc/maxresdefault.jpg",
   },
   {
     title: "The Future of AI in Business",
     excerpt: "Explore how AI is revolutionizing industries, from automation to customer experience and beyond.",
-    image: "/images/ai-business.jpg",
+    image: "https://media.licdn.com/dms/image/v2/D4E12AQFgkNP-veM-xQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1696944827305?e=2147483647&v=beta&t=uePmMpVGuF6R6ptxRpXThlgbwg53bjGh8mT16SvWEJo",
   },
 ];
 
@@ -29,8 +29,8 @@ function Blog() {
       {/* Blog Posts Section */}
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogPosts.map((post, index) => (
-          <div key={index} className="rounded-lg shadow-md overflow-hidden">
-            <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
+          <div key={index} className="rounded-lg shadow-md overflow-hidden flex flex-col justify-between">
+            <img src={post.image} alt={post.title} className="h-fit object-cover" />
             <div className="p-4">
               <h3 className="text-xl font-semibold">{post.title}</h3>
               <p className="mt-2">{post.excerpt}</p>
