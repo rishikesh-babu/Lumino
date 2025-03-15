@@ -13,15 +13,8 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Send email using "mailto:"
-    const subject = encodeURIComponent("Customer Feedback - Code Storm");
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-    );
-    window.location.href = `mailto:ivansharofer@5455@gmail.com?subject=${subject}&body=${body}`;
-
-    alert("Thank you for your feedback! We will get back to you soon.");
+    console.log("Form Submitted:", formData);
+    alert("Thank you for reaching out! We will contact you soon.");
   };
 
   return (
@@ -33,8 +26,8 @@ function Contact() {
         {/* Company Contact Info */}
         <div className="mt-6">
           <p className="text-gray-700"><strong>Email:</strong> codestorm5655@gmail.com</p>
-          <p className="text-gray-700"><strong>Phone:</strong> +1 (555) 123-4567</p>
-          <p className="text-gray-700"><strong>Address:</strong> 123 Tech Street, Innovation City, USA</p>
+          <p className="text-gray-700"><strong>Phone:</strong> +91 85903351752</p>
+          <p className="text-gray-700"><strong>Address:</strong> 123 Business St, City, Country</p>
         </div>
 
         {/* Contact Form */}
