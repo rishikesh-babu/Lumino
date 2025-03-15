@@ -11,19 +11,14 @@ const blogPosts = [
     excerpt: "A look at the logistics, creativity, and execution behind organizing large-scale successful events.",
     image: "/images/event-planning.jpg",
   },
+  {
+    title: "The Future of AI in Business",
+    excerpt: "Explore how AI is revolutionizing industries, from automation to customer experience and beyond.",
+    image: "/images/ai-business.jpg",
+  },
 ];
 
-const digitalMarketingContent = `
-  The digital landscape is evolving fast. At Codestorm, we stay ahead with cutting-edge strategies. 
-  Here are the key trends shaping 2025:
-  - **AI-Powered Marketing:** Smarter automation and personalized content enhance customer engagement.
-  - **Short-Form Video:** Platforms like TikTok and Reels dominate with quick, engaging content.
-  - **Live Streaming Growth:** Real-time interaction boosts brand trust and audience connection.
-  - **Voice Search Optimization:** With smart assistants on the rise, voice-friendly content is a must.
-  - **Ethical & Sustainable Marketing:** Consumers favor brands that prioritize transparency and responsibility.
-  - **Metaverse & Virtual Experiences:** Digital storefronts and immersive experiences redefine brand engagement.
-  Stay ahead with Codestorm’s innovative marketing solutions. Let’s create the future together!
-`;
+
 
 function Blog() {
   return (
@@ -32,7 +27,7 @@ function Blog() {
       <p className="text-center mt-2">Welcome to the blog page!</p>
 
       {/* Blog Posts Section */}
-      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogPosts.map((post, index) => (
           <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
             <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
@@ -44,11 +39,7 @@ function Blog() {
         ))}
       </div>
 
-      {/* Digital Marketing Content Section */}
-      <div className="mt-12 p-6 bg-gray-100 rounded-lg shadow-md">
-        <h2 className="text-2xl font-semibold text-center">Digital Marketing Trends 2025</h2>
-        <p className="mt-4 text-gray-700 whitespace-pre-line">{digitalMarketingContent}</p>
-      </div>
+    
     </div>
   );
 }
