@@ -14,6 +14,11 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Form Submitted:", formData);
+        setFormData({
+            name: "",
+            email: "",
+            message: "",
+        })
         alert("Thank you for reaching out! We will contact you soon.");
     };
 
