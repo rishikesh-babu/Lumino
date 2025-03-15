@@ -17,9 +17,9 @@ function Navbar() {
                     <Link to={'/about'} className="hover:text-blue-400 transition duration-300">
                         About
                     </Link>
-                    <a href="#" className="hover:text-blue-400 transition duration-300">
+                    <Link to={'blog'} className="hover:text-blue-400 transition duration-300">
                         Blog
-                    </a>
+                    </Link>
                     <a href="#" className="hover:text-blue-400 transition duration-300">
                         Contact
                     </a>
