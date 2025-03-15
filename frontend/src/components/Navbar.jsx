@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <div>
             <nav className="flex justify-between items-center px-6 py-4 bg-gray-900 text-white shadow-md">
-                {/* Logo Section */}
+                {/* Log o Section */}
                 <div className="text-4xl font-bold tracking-wide text-blue-400">
                     ABC
                 </div>
