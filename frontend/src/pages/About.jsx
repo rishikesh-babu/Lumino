@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AboutEPAM() {
+function About() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <div className="bg-white shadow-lg rounded-lg p-8 max-w-3xl w-full">
@@ -43,4 +43,4 @@ function AboutEPAM() {
   );
 }
 
-export default AboutEPAM;
+export default About;
