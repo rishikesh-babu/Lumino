@@ -32,8 +32,7 @@ function Service() {
     return (
         <div>
             {/* Hero Section */}
-            <div className="relative h-[350px] bg-cover bg-center flex items-center justify-center text-center"
-                style={{ backgroundImage: "url('/images/services-hero.jpg')" }}>
+            <div className="relative h-[350px] bg-cover bg-center flex items-center justify-center text-center">
                 <div className="absolute inset-0 bg-opacity-50"></div>
                 <h1 className="relative text-4xl md:text-5xl font-bold">Our Services</h1>
             </div>
@@ -43,8 +42,8 @@ function Service() {
                 <h2 className="text-3xl font-semibold text-center mb-10">What We Offer</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                     {services.map((service, index) => (
-                        <div key={index} className="group relative overflow-hidden rounded-lg shadow-lg">
-                            <img src={service.image} alt={service.name} className="w-full h-48 object-cover transition duration-300 group-hover:scale-110" />
+                        <div key={index} className="group relative overflow-hidden rounded-lg shadow-xl">
+                            {/* <img src={service.image} alt={service.name} className="w-full h-48 object-cover transition duration-300 group-hover:scale-110" /> */}
                             <div className="p-6 text-center">
                                 <div className="flex justify-center">{service.icon}</div>
                                 <h3 className="text-xl font-semibold mt-4">{service.name}</h3>
