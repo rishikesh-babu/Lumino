@@ -8,6 +8,9 @@ function Navbar() {
         <div>
             <nav className="flex justify-between items-center px-6 py-4 bg-gray-900 text-white shadow-md">
                 {/* Logo Section */}
+                <div>
+                    ytuytu
+                </div>
                 <div onClick={() => navigate('/')} className="text-4xl font-bold tracking-wide text-blue-400">
                     ABCEFGhiji
                 </div>
