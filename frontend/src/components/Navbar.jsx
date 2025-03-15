@@ -11,6 +11,9 @@ function Navbar() {
                 <div onClick={() => navigate('/')} className="text-4xl font-bold tracking-wide text-blue-400">
                     ABCEFGhiji
                 </div>
+                <div>
+                    lasjflskdjf
+                </div>
 
                 {/* Navigation Links */}
                 <div className="flex space-x-6 text-lg font-medium">
