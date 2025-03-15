@@ -9,12 +9,12 @@ const blogPosts = [
   {
     title: "Behind-the-Scenes: How We Plan Major Events",
     excerpt: "A look at the logistics, creativity, and execution behind organizing large-scale successful events.",
-    image: "/images/event-planning.jpg",
+    image: "https://i.ytimg.com/vi/QkDfwPhUJYc/maxresdefault.jpg",
   },
   {
     title: "The Future of AI in Business",
     excerpt: "Explore how AI is revolutionizing industries, from automation to customer experience and beyond.",
-    image: "/images/ai-business.jpg",
+    image: "https://media.licdn.com/dms/image/v2/D4E12AQFgkNP-veM-xQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1696944827305?e=2147483647&v=beta&t=uePmMpVGuF6R6ptxRpXThlgbwg53bjGh8mT16SvWEJo",
   },
 ];
 
