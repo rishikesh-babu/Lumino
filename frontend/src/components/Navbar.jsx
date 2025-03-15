@@ -9,7 +9,7 @@ function Navbar() {
             <nav className="flex justify-between items-center px-6 py-4 bg-gray-900 text-white shadow-md">
                 {/* Logo Section */}
                 <div onClick={() => navigate('/')} className="text-4xl font-bold tracking-wide text-blue-400">
-                    ABCt5y56y4
+                    ABCEFG
                 </div>
 
                 {/* Navigation Links */}
