@@ -1,9 +1,12 @@
 import React from 'react'
+import DarkMode from './DarkMode'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
         <div>
-            <nav className="flex justify-between items-center px-6 py-4 bg-gray-900 text-white shadow-md">
+            
+            <nav className="flex justify-between items-center px-6 py-4 not-dark:bg-gray-900 shadow-md">
                 {/* Logo Section */}
                 <div className="text-4xl font-bold tracking-wide text-blue-400">
                     ABC
@@ -11,9 +14,9 @@ function Navbar() {
 
                 {/* Navigation Links */}
                 <div className="flex space-x-6 text-lg font-medium">
-                    <a href="#" className="hover:text-blue-400 transition duration-300">
+                    <Link to={'/about'} className="hover:text-blue-400 transition duration-300">
                         About
-                    </a>
+                    </Link>
                     <a href="#" className="hover:text-blue-400 transition duration-300">
                         Blog
                     </a>
@@ -26,6 +29,9 @@ function Navbar() {
                     <a href="#" className="hover:text-blue-400 transition duration-300">
                         Portfolio
                     </a>
+                    <div>
+                        <DarkMode />
+                    </div>
                 </div>
             </nav>
         </div>
