@@ -10,8 +10,8 @@ function About() {
       </div>
 
       {/* Main Content */}
-      <div className="shadow-2xl rounded-2xl p-8 max-w-3xl w-full transform transition-all duration-300 hover:scale-105">
-        <h4 className="text-3xl font-extrabold text-center text-blue-400 ">Who We Are</h4>
+      <div className="shadow-2xl rounded-2xl p-8 max-w-3xl w-full transform transition-all duration-300">
+        <h2 className="text-4xl font-extrabold text-center ">Who We Are</h2>
         <p className="text-center mt-3 text-lg">
           A results-driven marketing team specializing in digital growth, branding, and customer engagement.
         </p>
