@@ -40,4 +40,4 @@ function Esports() {
   );
 }
 
-export default Esports;
+export default Esports
