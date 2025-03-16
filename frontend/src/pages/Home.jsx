@@ -71,6 +71,7 @@ function Home() {
           <img
             src="https://www.naba.it/naba/entities/course/header-gallery-biennio-creative-media-production.jpg"
             alt="Media Production"
+            className="object-contain"
           />
           <p className="legend">Media Production</p>
         </div>
@@ -78,6 +79,7 @@ function Home() {
           <img
             src="https://i.ytimg.com/vi/Bwb-z91x93I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBCWZTT5zA1aLAljpiHC9fjzkvFew"
             alt="Live Streaming"
+            className="object-contain"
           />
           <p className="legend">Live Streaming</p>
         </div>
@@ -85,6 +87,7 @@ function Home() {
           <img
             src="https://digifame.in/wp-content/uploads/2023/12/What-is-Digital-Marketing-768x512-1.jpg"
             alt="Digital Marketing"
+            className="object-contain"
           />
           <p className="legend">Digital Marketing</p>
         </div>
