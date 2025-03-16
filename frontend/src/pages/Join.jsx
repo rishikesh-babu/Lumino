@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function Join() {
-  // Job listings
   const jobs = [
     { id: 1, title: "Frontend Developer", location: "Remote", description: "We are looking for a React developer with 2+ years of experience." },
     { id: 2, title: "Backend Developer", location: "New York, USA", description: "Node.js and database management experience required." },
