@@ -55,8 +55,8 @@ function Home() {
   return (
     <div>
       {/* Header Section */}
-      <header style={{ background: "#000", color: "#fff", textAlign: "center", padding: "20px" }}>
-        <h1>CODESTORM Studios</h1>
+      <header style={{ textAlign: "center", padding: "20px" }}>
+        
         <h2>VISION INTO LIFE</h2>
         <Link to={'/service'} style={buttonStyle}>
           Explore Our Services
@@ -107,37 +107,37 @@ function Home() {
       {/* Case Studies / Success Stories Section */}
       <div className="p-6 max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-6">🚀 Success Stories</h2>
-        <p className="text-center text-gray-600 mb-8">
+        <p className="text-center  mb-8">
           See how Code Storm has helped brands achieve remarkable growth!
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {caseStudies.map((caseStudy) => (
-            <div key={caseStudy.id} className="bg-white rounded-lg shadow-lg p-6">
+            <div key={caseStudy.id} className=" rounded-lg shadow-lg p-6">
               <img
                 src={caseStudy.image}
                 alt={caseStudy.client}
                 className="w-full h-48 object-cover rounded-md"
               />
               <h3 className="text-2xl font-semibold mt-4">{caseStudy.client}</h3>
-              <p className="text-gray-600 mt-2">
+              <p className=" mt-2">
                 <strong>Challenge:</strong> {caseStudy.challenge}
               </p>
-              <p className="text-gray-700 mt-2">
+              <p className=" mt-2">
                 <strong>Solution:</strong> {caseStudy.solution}
               </p>
-              <div className="mt-4 bg-gray-100 p-4 rounded-lg">
+              <div className="mt-4  p-4 rounded-lg">
                 <h4 className="font-semibold text-blue-500">📈 Results:</h4>
-                <ul className="list-disc list-inside text-gray-700 mt-2">
+                <ul className="list-disc list-inside tmt-2">
                   <li>🚀 Traffic Increase: {caseStudy.results.trafficIncrease}</li>
                   <li>🔥 Lead Growth: {caseStudy.results.leadGrowth}</li>
                   <li>📊 Engagement Boost: {caseStudy.results.engagementBoost}</li>
                 </ul>
               </div>
-              <blockquote className="mt-4 italic text-gray-600">
+              <blockquote className="mt-4 italic">
                 “{caseStudy.testimonial}”
               </blockquote>
-              <p className="mt-2 text-gray-500 font-semibold">
+              <p className="mt-2  font-semibold">
                 — {caseStudy.clientName}, {caseStudy.clientRole}
               </p>
             </div>

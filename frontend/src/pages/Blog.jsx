@@ -2,7 +2,7 @@ import React from "react";
 
 const blogPosts = [
   {
-    title: "Digital Marketing Trends for 2025",
+    title : "Digital Marketing Trends for 2025",
     excerpt: "Discover the latest strategies in SEO, social media, and AI-driven marketing to stay ahead in the digital landscape.",
     image: "https://blog.omnichat.ai/wp-content/uploads/2024/12/2025-trend-en.png",
   },
@@ -23,7 +23,7 @@ const blogPosts = [
 function Blog() {
   return (
     <div className="p-6 rounded-lg shadow-lg">
-      <h1 className="text-2xl font-bold text-center">Blog Page</h1>
+      <h1 className="text-4xl font-bold text-center text-blue-400">Blog Page</h1>
       <p className="text-center mt-2">Welcome to the blog page!</p>
 
       {/* Blog Posts Section */}

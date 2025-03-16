@@ -32,12 +32,12 @@ function Join() {
     <div className="min-h-screen flex flex-col items-center p-6">
       {/* Hero Section */}
       <div className="text-center mb-10">
-        <h1 className="text-5xl font-extrabold">Join Code Storm</h1>
+        <h1 className="text-4xl font-extrabold text-blue-400">Join Us</h1>
         <p className="text-lg mt-2 italic">"Where Innovation Thrives & Talent Grows."</p>
       </div>
 
       <div className="shadow-lg rounded-lg p-8 max-w-3xl w-full">
-        <h2 className="text-3xl font-bold text-center">Open Positions</h2>
+        <h2 className="text-2xl font-bold text-center text-blue-400">Open Positions</h2>
         <p className="text-center mt-2">Explore our job openings and apply today!</p>
 
         {/* Job Listings */}
