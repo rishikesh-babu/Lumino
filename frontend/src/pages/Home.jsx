@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Modal from "react-modal";
+import { Link } from "react-router-dom";
 
 const buttonStyle = {
   background: "#ff6600",
@@ -57,12 +58,12 @@ function Home() {
       <header style={{ background: "#000", color: "#fff", textAlign: "center", padding: "20px" }}>
         <h1>CODESTORM Studios</h1>
         <h2>VISION INTO LIFE</h2>
-        <a href="#services" style={buttonStyle}>
+        <Link to={'/service'} style={buttonStyle}>
           Explore Our Services
-        </a>
-        <a href="#contact" style={buttonStyle}>
+        </Link>
+        <Link to={'/contact'} style={buttonStyle}>
           Contact Us
-        </a>
+        </Link>
       </header>
 
       {/* Image Carousel */}
