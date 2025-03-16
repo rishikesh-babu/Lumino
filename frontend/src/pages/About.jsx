@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6 text-gray-800 dark:text-gray-200">
+    <div className="min-h-screen flex flex-col items-center justify-center p-6">
       {/* Hero Section */}
       <motion.div 
         className="text-center mb-10"
@@ -17,7 +17,7 @@ function About() {
 
       {/* Main Content */}
       <motion.div 
-        className="shadow-2xl rounded-2xl p-8 max-w-3xl w-full backdrop-blur-md border border-gray-300 dark:border-gray-700 transform transition-all duration-300 hover:scale-105"
+        className="shadow-2xl rounded-2xl p-8 max-w-3xl w-full backdrop-blur-md border border-gray-300  transform transition-all duration-300 hover:scale-105"
         initial={{ opacity: 0, scale: 0.8 }} 
         animate={{ opacity: 1, scale: 1 }} 
         transition={{ duration: 1.2 }}
@@ -35,7 +35,7 @@ function About() {
           transition={{ duration: 1 }}
         >
           <h3 className="text-2xl font-semibold text-blue-500 dark:text-blue-400">Our Story</h3>
-          <p className="mt-2 leading-relaxed text-gray-700 dark:text-gray-300">
+          <p className="mt-2 leading-relaxed">
             Since its inception, Code Storm has been dedicated to crafting impactful marketing strategies that drive business success.
             Our team of experts blends creativity with data-driven insights to help brands grow and thrive in a competitive digital world.
           </p>
