@@ -45,7 +45,7 @@ const caseStudies = [
       "Thanks to Code Storm, our conversion rates skyrocketed! Their strategies are truly game-changing.",
     clientName: "John Smith",
     clientRole: "Founder, GreenGrove E-Commerce",
-    image: "/images/case-study-2.jpg",
+    image: "https://img.freepik.com/premium-vector/nature-nature-inspired-tree-logo-named-greengrove-illustration-design_650144-3419.jpg",
   },
 ];
 
@@ -70,7 +70,7 @@ function Home() {
       <Carousel autoPlay infiniteLoop showThumbs={false}>
         <div>
           <img
-            src="https://www.naba.it/naba/entities/course/header-gallery-biennio-creative-media-production.jpg"
+            src="https://img.freepik.com/premium-photo/movie-shooting-video-filming-production-by-crew-team-professional-equipment-such-as-super-ultra-high-definition-digital-camera-with-tripod-lighting-set-studio-black-white-styles_258335-3656.jpg"
             alt="Media Production"
             className="object-contain"
           />
@@ -78,7 +78,7 @@ function Home() {
         </div>
         <div>
           <img
-            src="https://i.ytimg.com/vi/Bwb-z91x93I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBCWZTT5zA1aLAljpiHC9fjzkvFew"
+            src="https://img.freepik.com/premium-photo/3d-rendering-offline-text-with-screen-effects-technological-glitches_232104-15611.jpg?semt=ais_hybrid"
             alt="Live Streaming"
             className="object-contain"
           />
@@ -86,7 +86,7 @@ function Home() {
         </div>
         <div>
           <img
-            src="https://digifame.in/wp-content/uploads/2023/12/What-is-Digital-Marketing-768x512-1.jpg"
+            src="https://static.vecteezy.com/system/resources/thumbnails/023/517/333/small/digital-marketing-internet-marketing-and-digital-marketing-background-photo.jpg"
             alt="Digital Marketing"
             className="object-contain"
           />
