@@ -28,7 +28,7 @@ const caseStudies = [
       "Code Storm transformed our digital presence! We saw an instant boost in website visitors and leads.",
     clientName: "Jane Doe",
     clientRole: "CMO, TechNova Solutions",
-    image: "/images/case-study-1.jpg",
+    image: "https://images.squarespace-cdn.com/content/v1/62ae1b5b6198473d6821a4be/e5acd3f5-61d3-4677-939e-2f5c5f04c670/Artwork46_TechStorn.jpg",
   },
   {
     id: 2,
