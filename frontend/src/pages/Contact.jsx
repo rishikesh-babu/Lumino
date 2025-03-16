@@ -30,9 +30,9 @@ function Contact() {
     };
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-blue-100">
-            <div className="shadow-lg rounded-lg p-8 max-w-2xl w-full bg-white">
-                <h2 className="text-3xl font-bold text-center text-blue-600">Get in Touch with CODESTORM</h2>
+        <div className="min-h-screen flex flex-col items-center justify-center p-6 100">
+            <div className="shadow-lg rounded-lg p-8 max-w-2xl w-full">
+                <h2 className="text-3xl font-bold text-center text-sky-400">Get in Touch with CODESTORM</h2>
                 <p className="text-center mt-2">We are here to assist you. Contact us for inquiries or support.</p>
 
                 {/* Company Contact Info */}
