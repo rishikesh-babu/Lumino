@@ -27,6 +27,7 @@ function Navbar() {
                     <Link to="/blog" className="hover:text-blue-500 transition duration-300">Blog</Link>
                     <Link to="/contact" className="hover:text-blue-500 transition duration-300">Contact</Link>
                     <Link to="/join" className="hover:text-blue-500 transition duration-300">Join</Link>
+                    <Link to="/esports" className="hover:text-blue-500 transition duration-300">Esports</Link>
                     <Link to="/service" className="hover:text-blue-500 transition duration-300">Service</Link>
                     <Link to="/portfolio" className="hover:text-blue-500 transition duration-300">Portfolio</Link>
                     <DarkMode />
@@ -40,6 +41,7 @@ function Navbar() {
                     <Link to="/blog" className="hover:text-blue-500 transition duration-300" onClick={() => setIsOpen(false)}>Blog</Link>
                     <Link to="/contact" className="hover:text-blue-500 transition duration-300" onClick={() => setIsOpen(false)}>Contact</Link>
                     <Link to="/join" className="hover:text-blue-500 transition duration-300" onClick={() => setIsOpen(false)}>Join</Link>
+                    <Link to="/exports" className="hover:text-blue-500 transition duration-300" onClick={() => setIsOpen(false)}>Esports</Link>
                     <Link to="/service" className="hover:text-blue-500 transition duration-300" onClick={() => setIsOpen(false)}>Service</Link>
                     <Link to="/portfolio" className="hover:text-blue-500 transition duration-300" onClick={() => setIsOpen(false)}>Portfolio</Link>
                     <DarkMode />
