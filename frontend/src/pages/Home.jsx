@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Modal from "react-modal";
+import { Link } from "react-router-dom";
 
 const buttonStyle = {
   background: "#ff6600",
@@ -28,7 +29,7 @@ const caseStudies = [
       "Code Storm transformed our digital presence! We saw an instant boost in website visitors and leads.",
     clientName: "Jane Doe",
     clientRole: "CMO, TechNova Solutions",
-    image: "/images/case-study-1.jpg",
+    image: "https://images.squarespace-cdn.com/content/v1/62ae1b5b6198473d6821a4be/e5acd3f5-61d3-4677-939e-2f5c5f04c670/Artwork46_TechStorn.jpg",
   },
   {
     id: 2,
@@ -44,7 +45,7 @@ const caseStudies = [
       "Thanks to Code Storm, our conversion rates skyrocketed! Their strategies are truly game-changing.",
     clientName: "John Smith",
     clientRole: "Founder, GreenGrove E-Commerce",
-    image: "/images/case-study-2.jpg",
+    image: "https://img.freepik.com/premium-vector/nature-nature-inspired-tree-logo-named-greengrove-illustration-design_650144-3419.jpg",
   },
 ];
 
@@ -54,22 +55,22 @@ function Home() {
   return (
     <div>
       {/* Header Section */}
-      <header style={{ background: "#000", color: "#fff", textAlign: "center", padding: "20px" }}>
-        <h1>CODESTORM Studios</h1>
+      <header style={{ textAlign: "center", padding: "20px" }}>
+        
         <h2>VISION INTO LIFE</h2>
-        <a href="#services" style={buttonStyle}>
+        <Link to={'/service'} style={buttonStyle}>
           Explore Our Services
-        </a>
-        <a href="#contact" style={buttonStyle}>
+        </Link>
+        <Link to={'/contact'} style={buttonStyle}>
           Contact Us
-        </a>
+        </Link>
       </header>
 
       {/* Image Carousel */}
       <Carousel autoPlay infiniteLoop showThumbs={false}>
         <div>
           <img
-            src="https://www.naba.it/naba/entities/course/header-gallery-biennio-creative-media-production.jpg"
+            src="https://img.freepik.com/premium-photo/movie-shooting-video-filming-production-by-crew-team-professional-equipment-such-as-super-ultra-high-definition-digital-camera-with-tripod-lighting-set-studio-black-white-styles_258335-3656.jpg"
             alt="Media Production"
             className="object-contain"
           />
@@ -77,7 +78,7 @@ function Home() {
         </div>
         <div>
           <img
-            src="https://i.ytimg.com/vi/Bwb-z91x93I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBCWZTT5zA1aLAljpiHC9fjzkvFew"
+            src="https://img.freepik.com/premium-photo/3d-rendering-offline-text-with-screen-effects-technological-glitches_232104-15611.jpg?semt=ais_hybrid"
             alt="Live Streaming"
             className="object-contain"
           />
@@ -85,7 +86,7 @@ function Home() {
         </div>
         <div>
           <img
-            src="https://digifame.in/wp-content/uploads/2023/12/What-is-Digital-Marketing-768x512-1.jpg"
+            src="https://static.vecteezy.com/system/resources/thumbnails/023/517/333/small/digital-marketing-internet-marketing-and-digital-marketing-background-photo.jpg"
             alt="Digital Marketing"
             className="object-contain"
           />
@@ -106,37 +107,37 @@ function Home() {
       {/* Case Studies / Success Stories Section */}
       <div className="p-6 max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-6">🚀 Success Stories</h2>
-        <p className="text-center text-gray-600 mb-8">
+        <p className="text-center  mb-8">
           See how Code Storm has helped brands achieve remarkable growth!
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {caseStudies.map((caseStudy) => (
-            <div key={caseStudy.id} className="bg-white rounded-lg shadow-lg p-6">
+            <div key={caseStudy.id} className=" rounded-lg shadow-lg p-6">
               <img
                 src={caseStudy.image}
                 alt={caseStudy.client}
                 className="w-full h-48 object-cover rounded-md"
               />
               <h3 className="text-2xl font-semibold mt-4">{caseStudy.client}</h3>
-              <p className="text-gray-600 mt-2">
+              <p className=" mt-2">
                 <strong>Challenge:</strong> {caseStudy.challenge}
               </p>
-              <p className="text-gray-700 mt-2">
+              <p className=" mt-2">
                 <strong>Solution:</strong> {caseStudy.solution}
               </p>
-              <div className="mt-4 bg-gray-100 p-4 rounded-lg">
+              <div className="mt-4  p-4 rounded-lg">
                 <h4 className="font-semibold text-blue-500">📈 Results:</h4>
-                <ul className="list-disc list-inside text-gray-700 mt-2">
+                <ul className="list-disc list-inside tmt-2">
                   <li>🚀 Traffic Increase: {caseStudy.results.trafficIncrease}</li>
                   <li>🔥 Lead Growth: {caseStudy.results.leadGrowth}</li>
                   <li>📊 Engagement Boost: {caseStudy.results.engagementBoost}</li>
                 </ul>
               </div>
-              <blockquote className="mt-4 italic text-gray-600">
+              <blockquote className="mt-4 italic">
                 “{caseStudy.testimonial}”
               </blockquote>
-              <p className="mt-2 text-gray-500 font-semibold">
+              <p className="mt-2  font-semibold">
                 — {caseStudy.clientName}, {caseStudy.clientRole}
               </p>
             </div>

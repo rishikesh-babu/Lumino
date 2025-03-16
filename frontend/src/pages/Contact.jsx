@@ -15,28 +15,28 @@ function Contact() {
         e.preventDefault();
 
         // Send email using "mailto:"
-        const subject = encodeURIComponent("Customer Feedback - Code Storm");
+        const subject = encodeURIComponent("Customer Inquiry - CODESTORM");
         const body = encodeURIComponent(
             `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
         );
-        window.location.href = `mailto:ivansharofer@5455@gmail.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:codestorm5655@gmail.com?subject=${subject}&body=${body}`;
         setFormData({
             name: "",
             email: "",
             message: "",
-        })
+        });
 
-        alert("Thank you for your feedback! We will get back to you soon.");
+        alert("Thank you for reaching out! We will get back to you soon.");
     };
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-6">
-            <div className=" shadow-lg rounded-lg p-8 max-w-2xl w-full">
-                <h2 className="text-3xl font-bold text-center">Contact Code Storm</h2>
-                <p className="text-center mt-2">Get in touch with our team for inquiries or support.</p>
+        <div className="min-h-screen flex flex-col items-center justify-center p-6 100">
+            <div className="shadow-lg rounded-lg p-8 max-w-2xl w-full">
+                <h2 className="text-3xl font-bold text-center text-sky-400">Get in Touch with CODESTORM</h2>
+                <p className="text-center mt-2">We are here to assist you. Contact us for inquiries or support.</p>
 
                 {/* Company Contact Info */}
-                <div className="mt-6">
+                <div className="mt-6 text-center">
                     <p><strong>Email:</strong> codestorm5655@gmail.com</p>
                     <p><strong>Phone:</strong> +1 (555) 123-4567</p>
                     <p><strong>Address:</strong> 123 Tech Street, Innovation City, USA</p>

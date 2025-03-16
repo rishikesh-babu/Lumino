@@ -5,7 +5,7 @@ const services = [
     {
         name: "Live Streaming",
         description: "We offer professional live streaming services for virtual and hybrid events, ensuring a seamless and engaging experience.",
-        icon: <Video size={60} color="#3b82f6" />, // Blue color
+        icon: <Video size={60} color="#3b82f6"  />, // Blue color
         image: "/images/live-streaming.jpg",
     },
     {
@@ -34,7 +34,7 @@ function Service() {
             {/* Hero Section */}
             <div className="relative bg-cover bg-center flex items-center justify-center text-center">
                 {/* <div className="absolute inset-0 bg-opacity-50"></div> */}
-                <h1 className="relative mt-10 text-4xl md:text-5xl font-bold">Our Services</h1>
+                <h1 className="relative mt-10 text-4xl md:text-5xl font-bold text-blue-400">Our Services</h1>
             </div>
 
             {/* Services Grid */}
