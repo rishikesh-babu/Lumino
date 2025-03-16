@@ -14,7 +14,7 @@ function Join() {
   const handleApply = (job) => {
     setSelectedJob(job);
     setSuccessMessage("");
-  };ette
+  };
 
   const handleChange = (e) => {
     setApplicant({ ...applicant, [e.target.name]: e.target.value });
