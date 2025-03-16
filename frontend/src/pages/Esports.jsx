@@ -7,7 +7,7 @@ function Esports() {
       <div className="text-center py-12">
         <h1 className="text-5xl font-extrabold text-blue-400">Code Storm Esports</h1>
         <p className="mt-4 text-lg">
-          Elevating competitive gaming with strategy, innovation, and passion.
+          Elevating competitive gaming with strategy, innovation, and passion. 
         </p>
       </div>
       
