@@ -94,7 +94,7 @@ function Contact() {
                     <div className="flex justify-center space-x-4 mt-2">
                         <a href="https://www.facebook.com/shone.sajan/" target="_blank" className="text-blue-500 hover:underline">Facebook</a>
                         <a href="#" className="text-blue-400 hover:underline">Twitter</a>
-                        <a href="#" className="text-red-500 hover:underline">Instagram</a>
+                        <a href="https://www.instagram.com/shone_sjn/" target="_blank" className="text-red-500 hover:underline">Instagram</a>
                         <a href="https://www.linkedin.com/in/shone-sajan-83a781290" target="_blank" className="hover:underline">LinkedIn</a>
                     </div>
                 </div>
