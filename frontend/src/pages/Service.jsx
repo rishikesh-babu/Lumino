@@ -42,17 +42,17 @@ function Service() {
                 <h2 className="text-3xl font-semibold text-center mb-10">What We Offer</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                     {services.map((service, index) => (
-                        <div key={index} className="group relative overflow-hidden rounded-lg shadow-xl">
-                            {/* <img src={service.image} alt={service.name} className="w-full h-48 object-cover transition duration-300 group-hover:scale-110" /> */}
-                            <div className="p-6 text-center">
+                        <div key={index} className="group relative overflow-hidden rounded-lg shadow-xl flex flex-col justify-between h-full">
+                            <div className="p-6 text-center flex-grow flex flex-col justify-between">
                                 <div className="flex justify-center">{service.icon}</div>
                                 <h3 className="text-xl font-semibold mt-4">{service.name}</h3>
-                                <p className="mt-2">{service.description}</p>
-                                <button className="mt-4 px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-700 transition duration-300">
+                                <p className="mt-2 flex-grow">{service.description}</p>
+                                <button className="w-full px-4 py-2 mt-4 bg-blue-600 rounded-lg hover:bg-blue-700 transition duration-300">
                                     Learn More
                                 </button>
                             </div>
                         </div>
+
                     ))}
                 </div>
             </div>
