@@ -92,7 +92,7 @@ function Contact() {
                 <div className="mt-6 text-center">
                     <p>Follow us on:</p>
                     <div className="flex justify-center space-x-4 mt-2">
-                        <a href="#" className="text-blue-500 hover:underline">Facebook</a>
+                        <a href="https://www.facebook.com/shone.sajan/" className="text-blue-500 hover:underline">Facebook</a>
                         <a href="#" className="text-blue-400 hover:underline">Twitter</a>
                         <a href="#" className="text-red-500 hover:underline">Instagram</a>
                         <a href="https://www.linkedin.com/in/shone-sajan-83a781290" className="hover:underline">LinkedIn</a>
