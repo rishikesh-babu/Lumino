@@ -8,6 +8,7 @@ import Join from "../pages/Join";
 import Portfolio from "../pages/Portfolio";
 import Service from "../pages/Service";
 import About from "../pages/About";
+import Home from "../pages/Home";
 
 
 const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
         element: <Layout />,
         errorElement: <ErrorPage />,
         children: [
+            {
+                path: '',
+                element: <Home />
+            },
             {
                 path: 'about',
                 element: <About />
